@@ -1,0 +1,20 @@
+---
+- name: Check queue example1.queue in example_vhost
+  env: prod
+  owner: example_owner
+  project: example_project
+  vhost: example_vhost
+  queue: example1.queue
+  warning: 1000
+  average: 2000
+  high: 5000
+  disaster: 10000
+
+- name: Check queue example2.queue in example_vhost
+  env: prod
+  owner: example_owner2
+  project: example_project
+  vhost: example_vhost
+  queue: example2.queue
+  warning: 1000
+  disasater: 5000

@@ -1,0 +1,7 @@
+url = "http://zabbix.example.ru"
+user = "user"
+password = "password"
+file = "rabbitmq.yaml"
+zbx_host = "RabbitMQ"
+ip = "172.16.1.20"
+port = "15672"
